@@ -3,7 +3,7 @@
   "name": "Days Calculator",
   "version": "1.0",
   "description": "Calculate the number of days",
-  "permission": ["scripting"],
+  "permissions": ["scripting"],
   "background": {
     "service_worker": "background.js"
   },
