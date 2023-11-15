@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
     .getElementById("date-form")
     .addEventListener("submit", function (event) {
       event.preventDefault();
-      let startDate = new Date(document.getElementById("start").valuie);
-      let endDate = new Date(document.getElementById("end").valuie);
+      const startDate = new Date(document.getElementById("start").valuie);
+      const endDate = new Date(document.getElementById("end").valuie);
       let resultElement = document.getElementById("result");
       let errorElement = document.getElementById("error");
       let msg = "";
